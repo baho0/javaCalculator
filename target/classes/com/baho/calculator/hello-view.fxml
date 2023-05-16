@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="341.0" style="-fx-background-color: #CCCCCC;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.baho.calculator.controller">
+
+   <children>
+      <Button fx:id="calculate" layoutX="242.0" layoutY="164.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="79.0" text="Calculate" onMouseClicked="#onClickCalculate"/>
+
+      <Button fx:id="buttonOne" layoutX="14.0" layoutY="231.0" mnemonicParsing="false" onMouseClicked="#onClickOne" prefHeight="53.0" prefWidth="64.0" text="1" />
+      <Button fx:id="buttonTwo" layoutX="96.0" layoutY="231.0" mnemonicParsing="false" onMouseClicked="#onClickTwo" prefHeight="53.0" prefWidth="64.0" text="2" />
+      <Button fx:id="buttonThree" layoutX="171.0" layoutY="231.0" mnemonicParsing="false" onMouseClicked="#onClickThree" prefHeight="53.0" prefWidth="64.0" text="3" />
+      <Button fx:id="buttonFour" layoutX="14.0" layoutY="298.0" mnemonicParsing="false" onMouseClicked="#onClickFour" prefHeight="53.0" prefWidth="64.0" text="4" />
+      <Button fx:id="buttonFive" layoutX="96.0" layoutY="298.0" mnemonicParsing="false" onMouseClicked="#onClickFive" prefHeight="53.0" prefWidth="64.0" text="5" />
+      <Button fx:id="buttonSix" layoutX="171.0" layoutY="298.0" mnemonicParsing="false" onMouseClicked="#onClickSix" prefHeight="53.0" prefWidth="64.0" text="6" />
+      <Button fx:id="buttonSeven" layoutX="14.0" layoutY="369.0" mnemonicParsing="false" onMouseClicked="#onClickSeven" prefHeight="53.0" prefWidth="64.0" text="7" />
+      <Button fx:id="buttonEight" layoutX="96.0" layoutY="369.0" mnemonicParsing="false" onMouseClicked="#onClickEight" prefHeight="53.0" prefWidth="64.0" text="8" />
+      <Button fx:id="buttonNine" layoutX="171.0" layoutY="369.0" mnemonicParsing="false" onMouseClicked="#onClickNine" prefHeight="53.0" prefWidth="64.0" text="9" />
+      <Button fx:id="buttonZero" layoutX="96.0" layoutY="431.0" mnemonicParsing="false" onMouseClicked="#onClickZero" prefHeight="53.0" prefWidth="64.0" text="0" />
+      <Label fx:id="equal" contentDisplay="RIGHT" layoutX="28.0" layoutY="39.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="54.0" prefWidth="285.0" style="-fx-background-color: gray;" textAlignment="RIGHT" wrapText="true">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Label>
+      <Button layoutX="14.0" layoutY="164.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="64.0" text="Clear" onMouseClicked="#onClickClear"/>
+      <Button fx:id="multiplication" layoutX="250.0" layoutY="369.0" mnemonicParsing="false" onMouseClicked="#multiplication" prefHeight="53.0" prefWidth="64.0" text="x" />
+      <Button fx:id="subtraction" layoutX="250.0" layoutY="298.0" mnemonicParsing="false" onMouseClicked="#subtraction" prefHeight="53.0" prefWidth="64.0" text="-" />
+      <Button fx:id="addition" layoutX="250.0" layoutY="231.0" mnemonicParsing="false" onMouseClicked="#addition" prefHeight="53.0" prefWidth="64.0" text="+" />
+      <Button fx:id="division" layoutX="250.0" layoutY="431.0" mnemonicParsing="false" onMouseClicked="#division" prefHeight="53.0" prefWidth="64.0" text="/" />
+   </children>
+
+
+</AnchorPane>
